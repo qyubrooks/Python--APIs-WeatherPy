@@ -170,7 +170,6 @@ plt.grid(True)
 plt.savefig("City Latitude vs Max Temperature.png")
 plt.show()
 ```
-![png](City Latitude vs Max Temperature.png)
 
 # Latitude vs. Humidity Plot
 
@@ -184,7 +183,6 @@ plt.grid(True)
 plt.savefig("City Latitude vs Humidity.png")
 plt.show()
 ```
-![png](City Latitude vs Humidity.png)
 
 # Latitude vs. Cloudiness Plot
 
@@ -198,7 +196,6 @@ plt.grid(True)
 plt.savefig("City Latitude vs Cloudiness.png")
 plt.show()
 ```
-![png](City Latitude vs Cloudiness.png)
 
 # Latitude vs. Wind Speed Plot
 
@@ -212,7 +209,7 @@ plt.grid(True)
 plt.savefig("City Latitude vs Wind Speed.png")
 plt.show()
 ```
-![png](City Latitude vs Wind Speed.png)
+
 
 
 
