@@ -156,7 +156,7 @@ weather_data.head()
 
 ## Plotting the Data
 
-# Latitude vs. Temperature Plot
+### Latitude vs. Temperature Plot
 ```python
 #add today's date in to charts
 date = dt.date.today().strftime("%m/%d/%Y")
@@ -171,7 +171,7 @@ plt.savefig("City Latitude vs Max Temperature.png")
 plt.show()
 ```
 
-# Latitude vs. Humidity Plot
+### Latitude vs. Humidity Plot
 
 ```python
 plt.scatter(weather_data["Lat"], weather_data["Humidity"], marker="o", s=20,alpha=.75, edgecolors="k")
@@ -184,7 +184,7 @@ plt.savefig("City Latitude vs Humidity.png")
 plt.show()
 ```
 
-# Latitude vs. Cloudiness Plot
+### Latitude vs. Cloudiness Plot
 
 ```python
 plt.scatter(weather_data["Lat"], weather_data["Cloudiness"], marker="o", s=20,alpha=.75, edgecolors="k")
@@ -197,7 +197,7 @@ plt.savefig("City Latitude vs Cloudiness.png")
 plt.show()
 ```
 
-# Latitude vs. Wind Speed Plot
+### Latitude vs. Wind Speed Plot
 
 ```python
 plt.scatter(weather_data["Lat"], weather_data["Wind Speed"], marker="o", s=20,alpha=.75, edgecolors="k")
